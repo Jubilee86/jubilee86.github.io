@@ -13,8 +13,8 @@
     <meta name="language" content="Korean">
     <link rel="canonical" href="https://jubilee86.github.io/">
     
-    <!-- Google AdSense (commented out for later use) -->
-    <!-- <meta name="google-adsense-account" content="ca-pub-3683619864263823"> -->
+    <!-- Google AdSense -->
+    <meta name="google-adsense-account" content="ca-pub-3683619864263823">
     
     <!-- Open Graph 태그 (Facebook, 카카오톡 등) -->
     <meta property="og:type" content="website">
@@ -76,10 +76,9 @@
     }
     </script>
     
-    <!-- External CSS -->
     <link rel="stylesheet" href="css/main.css">
     
-    <!-- Kakao SDK -->
+    <!-- 카카오 SDK -->
     <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" 
             integrity="sha384-TiCUE00h649CAMonG018J2ujOgDKW/kVWlChEuu4jK2vxfAAD0eZxzCKakxg55G4" 
             crossorigin="anonymous"></script>
@@ -122,7 +121,8 @@
                 <h2 class="result-title" id="result-type"></h2>
                 <p class="result-description" id="result-description"></p>
                 <div class="percentage-bar" id="percentage-results"></div>
-
+                
+                <!-- 소셜미디어 공유 버튼 -->
                 <div class="share-section">
                     <h3 class="share-title">결과를 공유해보세요! 📱</h3>
                     <div class="share-buttons">
@@ -140,18 +140,17 @@
                         </button>
                     </div>
                 </div>
-
+                
                 <button class="btn restart-btn" onclick="restartTest()">다시 테스트하기</button>
             </section>
         </main>
     </div>
+
+    <script src="js/main.js"></script>
     
     <!-- Footer -->
     <footer style="position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); text-align: center; padding: 10px 0; color: #666; font-size: 12px; border-top: 1px solid rgba(255, 255, 255, 0.2); z-index: 1000;">
         <p style="margin: 0;">© 2025 테토/에겐 성격 테스트. All rights reserved.</p>
     </footer>
-
-    <!-- External JavaScript -->
-    <script src="js/main.js"></script>
 </body>
 </html>
